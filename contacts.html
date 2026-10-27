@@ -9,55 +9,73 @@
 <body>
     <header>
         <img src="src/assets/img/logo.jpg" style="height: 150px;width: 150px;">
-        <ul>
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-        </ul>
+        <nav class="list-links">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
         <nav class="breadcrumbs">
             <a href="index.html">Главная</a>
             <span>/</span>
             <a href="contacts.html">Контакты</a>
         </nav>
     </header>
+    <hr>
+
     <main>
-        <h2 class="h2_style">Contact Us</h2>
-        <p class="p_style">Алфавит</p>
-        <img src="src/assets/img/mem.jpg" style="width: 350px; height: 350px;">
-        <h4 class="h4_style">Address</h4>
-        <p class="p_style">Алфавит</p>
-        <h4 class="h4_style">Phone</h4>
+        <section class="section-about-company-representative">
+            <h2 class="h2-style">Наш представитель</h2>
+            <p class="p-style">Дуэйн Джонсон</p>
+            <img src="src/assets/img/mem.jpg" style="width: 350px; height: 350px;">
+        </section>
+        <hr>
+        <section class="address-section">
+            <h4 class="h4-style">Адрес где вы нас не найдете</h4>
+            <p class="p-style">Россия, г. Вологда, Мирная ул., д. 25 кв.59</p>
+        </section>
+        <hr>
+        <section class="phone-number-section">
+        <h4 class="h4-style">Телефоны по которым не дозвонитесь</h4>
         <ul>
             <li>+7 (800) 100-24-24</li>
             <li>+7 (800) 200-77-99</li>
         </ul>
-        <h4 class="h4_style">Online service</h4>
-        <ul>
-            <li><a href="https://72.ru/text/gorod/2026/10/08/76686697/?ysclid=muzbpaz6ff627122731">Сайт</a></li>
-            <li><a href="https://mail.google.com/">Почта</a></li>
-            <li>+1 (512) 555-7980</li>
-            <li>7980 Pine Lane, Austin, Texas</li>
-        </ul>
-        <h4 class="h4_style">Send us message</h4>
-        <form class="img_background_form">
-            <label for="fullname">Full Name</label><br>
-            <input class="input_fields" type="text" id="fullname" name="fullname" placeholder="Введите имя"><br>
-            <label for="email">Email</label><br>
-            <input class="input_fields" type="email" id="email" name="email" placeholder="Введите email"><br>
-            <label for="message">Message</label><br>
-            <textarea class="input_fields" name="message" id="message" rows="4" placeholder="Введите сообщение"></textarea><br>
-            <button class="button" type="submit">submit</button>
-        </form>
-    </main>
-    <footer>
-        <h3 class="h3_style">Три разных слова</h3>
-        <p class="p_style">Параграф с произвольным текстом: не более 10 слов</p>
+        </section>
         <hr>
+        <section class="contacts-section">
+            <h4 class="h4-style">Наши online севрисы</h4>
+            <ul>
+                <li><a href="https://72.ru/text/gorod/2026/10/08/76686697/?ysclid=muzbpaz6ff627122731">Сайт</a></li>
+                <li><a href="https://mail.google.com/">Почта</a></li>
+                <li>+1 (512) 555-7980</li>
+                <li>7980 Pine Lane, Austin, Texas</li>
+            </ul>
+        </section>
+        <hr>
+        <section class="form-section">
+            <h4 class="h4-style">Send us message</h4>
+            <form class="img-background-form">
+                <label for="fullname">Full Name</label><br>
+                <input class="input-fields" type="text" id="fullname" name="fullname" placeholder="Введите имя"><br>
+                <label for="email">Email</label><br>
+                <input class="input-fields" type="email" id="email" name="email" placeholder="Введите email"><br>
+                <label for="message">Message</label><br>
+                <textarea class="input-fields" name="message" id="message" rows="4" placeholder="Введите сообщение"></textarea><br>
+                <button class="button" type="submit">submit</button>
+            </form>
+        </section>
+        <hr>
+    </main>
+    <footer class="contacts-footer">
+        <h3 class="h3-style">Что забрать приз</h3>
+        <p class="p-style">Вам необходимо связаться с нами: по почте или по номеру телефона</p>
         <ul>
-            <li>Произвольный текст по заданию</li>
+            <li>Никогда Неверьте Такимсайтович</li>
             <li>+7 (3452) 59-74-29</li>
             <li>ed@utmn.ru</li>
         </ul>
-        <p class="p_style">Все права защищены</p>
+        <p class="p-style">Все права защищены</p>
     </footer>
 </body>
 </html>
