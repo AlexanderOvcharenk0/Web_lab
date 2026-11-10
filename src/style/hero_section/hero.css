@@ -1,0 +1,107 @@
+.hero-section {
+    max-width: 1124px;
+    margin: 70px auto 100px;
+}
+
+.component-hero-section {
+    max-width: 580px;
+    margin-bottom: 48px;
+}
+
+.component-hero-section h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: #111827;
+    margin-bottom: 20px;
+}
+
+.component-hero-section h1 span {
+    color: #2F69FE;
+}
+
+.component-hero-section p {
+    font-size: 14px;
+    color: #4B5563;
+    max-width: 480px;
+    font-weight: 500;
+}
+
+.call-back-section {
+    background-color: #FFFFFF;
+    max-width: 560px;
+    padding: 28px 32px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.callback-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    grid-template-rows: auto auto auto;
+    column-gap: 24px;
+    align-items: end;
+}
+
+.form-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    grid-column: 1 / -1;
+    font-size: 16px;
+    color: #111827;
+    margin-bottom: 20px;
+    max-width: 380px;
+}
+
+.callback-form label[for="phone"] {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 12px;
+    font-weight: 500;
+    color: #6B7280;
+    margin-bottom: 6px;
+}
+
+.callback-form label[for="fullname"] {
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 12px;
+    font-weight: 500;
+    color: #6B7280;
+    margin-bottom: 6px;
+}
+
+.callback-form input {
+    border: none;
+    border-bottom: 1px solid #D1D5DB;
+    padding: 8px 0;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inherit;
+    color: #111827;
+    width: 100%;
+}
+
+.callback-form input#phone {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.callback-form input#fullname {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.callback-form button {
+    font-family: inherit;
+    grid-column: 3;
+    grid-row: 2 / 4;
+    background-color: #2F69FE;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 13px;
+    font-weight: 700;
+    max-width: 120px;
+}
